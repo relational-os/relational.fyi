@@ -31,7 +31,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
             "Segoe UI Emoji", "Segoe UI Symbol";
           margin: 0;
           padding: 0;
-          background-color: #7fff00;
+          background-color: #ff0000;
           animation: bgColor 15s infinite linear;
           width: 100%;
           height: 100%;
@@ -39,28 +39,28 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
 
         @keyframes bgColor {
           12.5% {
-            background-color: #7fff00;
-          }
-          25% {
-            background-color: #00ffff;
-          }
-          37.5% {
-            background-color: #0000ff;
-          }
-          50% {
-            background-color: #9932cc;
-          }
-          62.5% {
-            background-color: #ff1493;
-          }
-          75% {
             background-color: #ff0000;
           }
-          87.5% {
+          25% {
             background-color: #ffa500;
           }
-          100% {
+          37.5% {
             background-color: #ffff00;
+          }
+          50% {
+            background-color: #7fff00;
+          }
+          62.5% {
+            background-color: #00ffff;
+          }
+          75% {
+            background-color: #0000ff;
+          }
+          87.5% {
+            background-color: #9932cc;
+          }
+          100% {
+            background-color: #ff1493;
           }
         }
       `}</style>
